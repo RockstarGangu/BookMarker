@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.826);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: aliceblue;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* border: 2px solid ; */
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.form-div {
+  border: 2px solid;
+  padding: 1rem;
+  margin: 0 1rem;
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-div h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.form-div form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-div input {
+  padding: 6px;
+  background-color: transparent;
+  border: 1px solid rgb(84, 84, 255);
+  color: aliceblue;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-div button {
+  padding: 8px;
+  background-color: rgba(18, 248, 34, 0.753);
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: antiquewhite;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.active {
+  border: 2px solid;
+  margin: 0 1rem;
+  margin-top: 1.5rem;
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.call-to-action button {
+  width: 6rem;
+  padding: 0.2rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+#visit-button {
+  background-color: rgb(16, 159, 220);
+}
+
+#delete-button {
+  background-color: rgb(187, 30, 6);
+}
